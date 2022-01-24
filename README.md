@@ -92,7 +92,8 @@ The report should contain the following:
     * Were you able to achieve the target model performance?
     * What steps did you take to try and increase model performance?
 
-3. **Summary**: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+3. **Summary**: 
+ After several tries, I decided to Autotune the algorithm so it will select by itslef the number of layers and neurons each one will have. After some changes with the get_dummies and OneHotEncoder, I found out that the best way to change categorical data to a numeric one is to use get_dummies. At the end, I was able to get a 73.55% model accuracy. My recommendations would be to add more columns of data to help the algorithm to have a better accuracy.
 
 - - -
 
